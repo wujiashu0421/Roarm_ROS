@@ -1,0 +1,2 @@
+Invoking command in '/home/wujiashu0421/roarm_ws_em0/build/roarm': /usr/bin/cmake /home/wujiashu0421/roarm_ws_em0/src/roarm -DCMAKE_INSTALL_PREFIX=/home/wujiashu0421/roarm_ws_em0/install/roarm
+Invoked command in '/home/wujiashu0421/roarm_ws_em0/build/roarm' returned '1': /usr/bin/cmake /home/wujiashu0421/roarm_ws_em0/src/roarm -DCMAKE_INSTALL_PREFIX=/home/wujiashu0421/roarm_ws_em0/install/roarm

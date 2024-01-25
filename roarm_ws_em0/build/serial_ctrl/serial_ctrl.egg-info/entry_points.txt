@@ -1,0 +1,3 @@
+[console_scripts]
+serial_ctrl = serial_ctrl.serial_ctrl_py:main
+

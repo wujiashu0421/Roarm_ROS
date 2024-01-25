@@ -1,0 +1,6 @@
+Invoking command in '/home/wujiashu0421/roarm_ws_em0/build/roarm': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/wujiashu0421/roarm_ws_em0/src/roarm -DCMAKE_INSTALL_PREFIX=/home/wujiashu0421/roarm_ws_em0/install/roarm
+Invoked command in '/home/wujiashu0421/roarm_ws_em0/build/roarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/wujiashu0421/roarm_ws_em0/src/roarm -DCMAKE_INSTALL_PREFIX=/home/wujiashu0421/roarm_ws_em0/install/roarm
+Invoking command in '/home/wujiashu0421/roarm_ws_em0/build/roarm': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wujiashu0421/roarm_ws_em0/build/roarm -- -j8 -l8
+Invoked command in '/home/wujiashu0421/roarm_ws_em0/build/roarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wujiashu0421/roarm_ws_em0/build/roarm -- -j8 -l8
+Invoking command in '/home/wujiashu0421/roarm_ws_em0/build/roarm': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wujiashu0421/roarm_ws_em0/build/roarm
+Invoked command in '/home/wujiashu0421/roarm_ws_em0/build/roarm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wujiashu0421/roarm_ws_em0/build/roarm
