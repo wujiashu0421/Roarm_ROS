@@ -1,0 +1,17 @@
+[1.269s] Invoking command in '/home/wujiashu0421/Roarm_ROS/build/feedback_service': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/feedback_service/prefix_override:/home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/feedback_service/build --no-deps install_data
+[1.474s] running develop
+[1.600s] running egg_info
+[1.601s] writing feedback_service.egg-info/PKG-INFO
+[1.602s] writing dependency_links to feedback_service.egg-info/dependency_links.txt
+[1.602s] writing entry points to feedback_service.egg-info/entry_points.txt
+[1.603s] writing requirements to feedback_service.egg-info/requires.txt
+[1.603s] writing top-level names to feedback_service.egg-info/top_level.txt
+[1.603s] reading manifest file 'feedback_service.egg-info/SOURCES.txt'
+[1.603s] writing manifest file 'feedback_service.egg-info/SOURCES.txt'
+[1.605s] running build_ext
+[1.605s] Creating /home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages/feedback-service.egg-link (link to .)
+[1.605s] Installing service_node script to /home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/feedback_service
+[1.605s] 
+[1.606s] Installed /home/wujiashu0421/Roarm_ROS/build/feedback_service
+[1.606s] running install_data
+[1.752s] Invoked command in '/home/wujiashu0421/Roarm_ROS/build/feedback_service' returned '0': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/feedback_service/prefix_override:/home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/feedback_service/build --no-deps install_data

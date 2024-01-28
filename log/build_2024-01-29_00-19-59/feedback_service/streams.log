@@ -1,0 +1,36 @@
+[1.324s] Invoking command in '/home/wujiashu0421/Roarm_ROS/src/feedback_service': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/feedback_service/prefix_override:/home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/feedback_service build --build-base /home/wujiashu0421/Roarm_ROS/build/feedback_service/build install --record /home/wujiashu0421/Roarm_ROS/build/feedback_service/install.log --single-version-externally-managed
+[1.528s] running egg_info
+[1.529s] creating ../../build/feedback_service/feedback_service.egg-info
+[1.529s] writing ../../build/feedback_service/feedback_service.egg-info/PKG-INFO
+[1.530s] writing dependency_links to ../../build/feedback_service/feedback_service.egg-info/dependency_links.txt
+[1.530s] writing entry points to ../../build/feedback_service/feedback_service.egg-info/entry_points.txt
+[1.530s] writing requirements to ../../build/feedback_service/feedback_service.egg-info/requires.txt
+[1.530s] writing top-level names to ../../build/feedback_service/feedback_service.egg-info/top_level.txt
+[1.530s] writing manifest file '../../build/feedback_service/feedback_service.egg-info/SOURCES.txt'
+[1.531s] reading manifest file '../../build/feedback_service/feedback_service.egg-info/SOURCES.txt'
+[1.533s] writing manifest file '../../build/feedback_service/feedback_service.egg-info/SOURCES.txt'
+[1.533s] running build
+[1.533s] running build_py
+[1.534s] creating /home/wujiashu0421/Roarm_ROS/build/feedback_service/build
+[1.534s] creating /home/wujiashu0421/Roarm_ROS/build/feedback_service/build/lib
+[1.535s] creating /home/wujiashu0421/Roarm_ROS/build/feedback_service/build/lib/feedback_service
+[1.535s] copying feedback_service/service_node .py -> /home/wujiashu0421/Roarm_ROS/build/feedback_service/build/lib/feedback_service
+[1.535s] copying feedback_service/__init__.py -> /home/wujiashu0421/Roarm_ROS/build/feedback_service/build/lib/feedback_service
+[1.535s] running install
+[1.535s] running install_lib
+[1.537s] creating /home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages/feedback_service
+[1.537s] copying /home/wujiashu0421/Roarm_ROS/build/feedback_service/build/lib/feedback_service/service_node .py -> /home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages/feedback_service
+[1.537s] copying /home/wujiashu0421/Roarm_ROS/build/feedback_service/build/lib/feedback_service/__init__.py -> /home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages/feedback_service
+[1.538s] byte-compiling /home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages/feedback_service/service_node .py to service_node .cpython-310.pyc
+[1.538s] byte-compiling /home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages/feedback_service/__init__.py to __init__.cpython-310.pyc
+[1.538s] running install_data
+[1.539s] creating /home/wujiashu0421/Roarm_ROS/install/feedback_service/share/ament_index
+[1.539s] creating /home/wujiashu0421/Roarm_ROS/install/feedback_service/share/ament_index/resource_index
+[1.539s] creating /home/wujiashu0421/Roarm_ROS/install/feedback_service/share/ament_index/resource_index/packages
+[1.539s] copying resource/feedback_service -> /home/wujiashu0421/Roarm_ROS/install/feedback_service/share/ament_index/resource_index/packages
+[1.539s] copying package.xml -> /home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service
+[1.539s] running install_egg_info
+[1.539s] Copying ../../build/feedback_service/feedback_service.egg-info to /home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages/feedback_service-0.0.0-py3.10.egg-info
+[1.539s] running install_scripts
+[1.553s] writing list of installed files to '/home/wujiashu0421/Roarm_ROS/build/feedback_service/install.log'
+[1.681s] Invoked command in '/home/wujiashu0421/Roarm_ROS/src/feedback_service' returned '0': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/feedback_service/prefix_override:/home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/feedback_service build --build-base /home/wujiashu0421/Roarm_ROS/build/feedback_service/build install --record /home/wujiashu0421/Roarm_ROS/build/feedback_service/install.log --single-version-externally-managed

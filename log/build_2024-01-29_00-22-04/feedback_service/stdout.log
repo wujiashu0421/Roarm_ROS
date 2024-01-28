@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing feedback_service.egg-info/PKG-INFO
+writing dependency_links to feedback_service.egg-info/dependency_links.txt
+writing entry points to feedback_service.egg-info/entry_points.txt
+writing requirements to feedback_service.egg-info/requires.txt
+writing top-level names to feedback_service.egg-info/top_level.txt
+reading manifest file 'feedback_service.egg-info/SOURCES.txt'
+writing manifest file 'feedback_service.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages/feedback-service.egg-link (link to .)
+
+Installed /home/wujiashu0421/Roarm_ROS/build/feedback_service
+running install_data

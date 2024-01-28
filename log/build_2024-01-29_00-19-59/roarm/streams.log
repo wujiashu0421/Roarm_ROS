@@ -1,0 +1,62 @@
+[0.639s] Invoking command in '/home/wujiashu0421/Roarm_ROS/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm -DCMAKE_INSTALL_PREFIX=/home/wujiashu0421/Roarm_ROS/install/roarm
+[0.732s] -- The C compiler identification is GNU 11.4.0
+[0.934s] -- The CXX compiler identification is GNU 11.4.0
+[1.075s] -- Detecting C compiler ABI info
+[1.154s] -- Detecting C compiler ABI info - done
+[1.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.160s] -- Detecting C compile features
+[1.160s] -- Detecting C compile features - done
+[1.163s] -- Detecting CXX compiler ABI info
+[1.247s] -- Detecting CXX compiler ABI info - done
+[1.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.254s] -- Detecting CXX compile features
+[1.254s] -- Detecting CXX compile features - done
+[1.256s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.391s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.456s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.521s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.522s] -- Added test 'lint_cmake' to check CMake code style
+[1.522s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.522s] -- Added test 'xmllint' to check XML markup files
+[1.523s] -- Configuring done
+[1.526s] -- Generating done
+[1.526s] -- Build files have been written to: /home/wujiashu0421/Roarm_ROS/build/roarm
+[1.657s] Invoked command in '/home/wujiashu0421/Roarm_ROS/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm -DCMAKE_INSTALL_PREFIX=/home/wujiashu0421/Roarm_ROS/install/roarm
+[1.657s] Invoking command in '/home/wujiashu0421/Roarm_ROS/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/wujiashu0421/Roarm_ROS/build/roarm -- -j8 -l8
+[1.684s] Invoked command in '/home/wujiashu0421/Roarm_ROS/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/wujiashu0421/Roarm_ROS/build/roarm -- -j8 -l8
+[1.704s] Invoking command in '/home/wujiashu0421/Roarm_ROS/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/wujiashu0421/Roarm_ROS/build/roarm
+[1.708s] -- Install configuration: ""
+[1.708s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/config
+[1.709s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/launch
+[1.709s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/launch/roarm.launch.py
+[1.709s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/maps
+[1.709s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes
+[1.709s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/L3.stl
+[1.715s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/L4.stl
+[1.716s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/L1.stl
+[1.719s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/base.stl
+[1.728s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/L2.stl
+[1.731s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/models
+[1.731s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/params
+[1.731s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/rviz
+[1.731s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/rviz/rviz_basic_settings.rviz
+[1.731s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/src
+[1.731s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/urdf
+[1.731s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/urdf/roarm.urdf
+[1.732s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/worlds
+[1.732s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/ament_index/resource_index/package_run_dependencies/roarm
+[1.732s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/ament_index/resource_index/parent_prefix_path/roarm
+[1.732s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/environment/ament_prefix_path.sh
+[1.732s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/environment/ament_prefix_path.dsv
+[1.732s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/environment/path.sh
+[1.732s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/environment/path.dsv
+[1.733s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/local_setup.bash
+[1.733s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/local_setup.sh
+[1.733s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/local_setup.zsh
+[1.733s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/local_setup.dsv
+[1.733s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.dsv
+[1.733s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/ament_index/resource_index/packages/roarm
+[1.733s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/cmake/roarmConfig.cmake
+[1.734s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/cmake/roarmConfig-version.cmake
+[1.734s] -- Installing: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.xml
+[1.735s] Invoked command in '/home/wujiashu0421/Roarm_ROS/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/wujiashu0421/Roarm_ROS/build/roarm

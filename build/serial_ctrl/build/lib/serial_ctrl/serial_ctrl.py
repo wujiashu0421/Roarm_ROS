@@ -11,7 +11,7 @@ import serial
 # Serial Object. Change USB port number and baud rate respectively for connection to other machines
 ser = serial.Serial("/dev/ttyUSB0",115200)
 
-# ROS service which 
+# Create ROS Service which replies the client with the feedback information every time it's called
 
 
 
@@ -23,7 +23,7 @@ class ControlSubscriber(Node):
         self.position = []
         self.subscription = self.create_subscription(
             JointState,
-            'joint_states',
+            '/matlab_control',
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning

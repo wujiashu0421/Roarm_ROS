@@ -1,0 +1,340 @@
+[0.829s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.829s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f404bd208b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f404bfd7fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f404bfd7fd0>>)
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.867s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wujiashu0421/Roarm_ROS'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Arm_Controller) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Arm_Controller) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Arm_Controller) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Arm_Controller) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Arm_Controller) by extension 'colcon_pkg'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Arm_Controller) by extensions ['colcon_meta']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Arm_Controller) by extension 'colcon_meta'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Arm_Controller) by extensions ['ros']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(Arm_Controller) by extension 'ros'
+[0.879s] DEBUG:colcon.colcon_core.package_identification:Package 'Arm_Controller' with type 'ros.ament_python' and name 'arm_controller'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/feedback_service) by extensions ['ignore', 'ignore_ament_install']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/feedback_service) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/feedback_service) by extension 'ignore_ament_install'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/feedback_service) by extensions ['colcon_pkg']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/feedback_service) by extension 'colcon_pkg'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/feedback_service) by extensions ['colcon_meta']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/feedback_service) by extension 'colcon_meta'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/feedback_service) by extensions ['ros']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/feedback_service) by extension 'ros'
+[0.881s] DEBUG:colcon.colcon_core.package_identification:Package 'src/feedback_service' with type 'ros.ament_python' and name 'feedback_service'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extensions ['colcon_pkg']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extension 'colcon_pkg'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extensions ['colcon_meta']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extension 'colcon_meta'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extensions ['ros']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extension 'ros'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extensions ['cmake', 'python']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extension 'cmake'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extension 'python'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extensions ['python_setup_py']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0) by extension 'python_setup_py'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/build) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/build) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/build) ignored
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/install) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/install) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/install) ignored
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/log) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/log) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/log) ignored
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extension 'ignore_ament_install'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extensions ['colcon_pkg']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extension 'colcon_pkg'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extensions ['colcon_meta']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extension 'colcon_meta'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extensions ['ros']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extension 'ros'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extensions ['cmake', 'python']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extension 'cmake'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extension 'python'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extensions ['python_setup_py']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src) by extension 'python_setup_py'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/roarm) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/roarm) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/roarm) by extension 'ignore_ament_install'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/roarm) by extensions ['colcon_pkg']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/roarm) by extension 'colcon_pkg'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/roarm) by extensions ['colcon_meta']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/roarm) by extension 'colcon_meta'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/roarm) by extensions ['ros']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/roarm) by extension 'ros'
+[0.884s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_ws_em0/src/roarm' with type 'ros.ament_cmake' and name 'roarm'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/serial_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/serial_ctrl) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/serial_ctrl) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/serial_ctrl) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/serial_ctrl) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/serial_ctrl) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/serial_ctrl) by extension 'colcon_meta'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/serial_ctrl) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/roarm_ws_em0/src/serial_ctrl) by extension 'ros'
+[0.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roarm_ws_em0/src/serial_ctrl' with type 'ros.ament_python' and name 'serial_ctrl'
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.982s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/wujiashu0421/Roarm_ROS/install
+[0.994s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_args' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_target' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.068s] DEBUG:colcon.colcon_core.verb:Building package 'arm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wujiashu0421/Roarm_ROS/build/arm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wujiashu0421/Roarm_ROS/install/arm_controller', 'merge_install': False, 'path': '/home/wujiashu0421/Roarm_ROS/Arm_Controller', 'symlink_install': True, 'test_result_base': None}
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'feedback_service' build argument 'cmake_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'feedback_service' build argument 'cmake_target' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'feedback_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'feedback_service' build argument 'cmake_clean_cache' from command line to 'False'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'feedback_service' build argument 'cmake_clean_first' from command line to 'False'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'feedback_service' build argument 'cmake_force_configure' from command line to 'False'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'feedback_service' build argument 'ament_cmake_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'feedback_service' build argument 'catkin_cmake_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'feedback_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.079s] DEBUG:colcon.colcon_core.verb:Building package 'feedback_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wujiashu0421/Roarm_ROS/build/feedback_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wujiashu0421/Roarm_ROS/install/feedback_service', 'merge_install': False, 'path': '/home/wujiashu0421/Roarm_ROS/src/feedback_service', 'symlink_install': True, 'test_result_base': None}
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_target' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_clean_first' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'cmake_force_configure' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'ament_cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'roarm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.091s] DEBUG:colcon.colcon_core.verb:Building package 'roarm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wujiashu0421/Roarm_ROS/build/roarm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wujiashu0421/Roarm_ROS/install/roarm', 'merge_install': False, 'path': '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm', 'symlink_install': True, 'test_result_base': None}
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_args' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_target' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'serial_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.103s] DEBUG:colcon.colcon_core.verb:Building package 'serial_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl', 'merge_install': False, 'path': '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/serial_ctrl', 'symlink_install': True, 'test_result_base': None}
+[1.114s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.126s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wujiashu0421/Roarm_ROS/Arm_Controller' with build type 'ament_python'
+[1.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'ament_prefix_path')
+[1.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/hook/ament_prefix_path.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/hook/ament_prefix_path.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/hook/ament_prefix_path.sh'
+[1.153s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.153s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.189s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wujiashu0421/Roarm_ROS/src/feedback_service' with build type 'ament_python'
+[1.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('feedback_service', 'ament_prefix_path')
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/hook/ament_prefix_path.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/hook/ament_prefix_path.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/hook/ament_prefix_path.sh'
+[1.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm' with build type 'ament_cmake'
+[1.250s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm'
+[1.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.307s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/serial_ctrl' with build type 'ament_python'
+[1.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_ctrl', 'ament_prefix_path')
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/hook/ament_prefix_path.ps1'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/hook/ament_prefix_path.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/hook/ament_prefix_path.sh'
+[1.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.594s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'arm_controller' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.594s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'arm_controller' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.595s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wujiashu0421/Roarm_ROS/Arm_Controller'
+[1.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.853s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wujiashu0421/Roarm_ROS/src/feedback_service'
+[1.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wujiashu0421/Roarm_ROS/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/wujiashu0421/Roarm_ROS/build/roarm -- -j8 -l8
+[2.115s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/serial_ctrl'
+[2.127s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.127s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wujiashu0421/Roarm_ROS/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/wujiashu0421/Roarm_ROS/build/roarm -- -j8 -l8
+[2.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wujiashu0421/Roarm_ROS/build/roarm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/wujiashu0421/Roarm_ROS/build/roarm
+[2.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm)
+[2.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wujiashu0421/Roarm_ROS/build/roarm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/wujiashu0421/Roarm_ROS/build/roarm
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm' for CMake module files
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm' for CMake config files
+[2.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm', 'cmake_prefix_path')
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/hook/cmake_prefix_path.ps1'
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/hook/cmake_prefix_path.dsv'
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/hook/cmake_prefix_path.sh'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm/bin'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm/lib/pkgconfig/roarm.pc'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm/lib/python3.10/site-packages'
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm/bin'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.ps1'
+[2.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.dsv'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.sh'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.bash'
+[2.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.zsh'
+[2.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wujiashu0421/Roarm_ROS/install/roarm/share/colcon-core/packages/roarm)
+[2.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roarm)
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm' for CMake module files
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm' for CMake config files
+[2.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('roarm', 'cmake_prefix_path')
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/hook/cmake_prefix_path.ps1'
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/hook/cmake_prefix_path.dsv'
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/hook/cmake_prefix_path.sh'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm/bin'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm/lib/pkgconfig/roarm.pc'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm/lib/python3.10/site-packages'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/roarm/bin'
+[2.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.ps1'
+[2.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.dsv'
+[2.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.sh'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.bash'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.zsh'
+[2.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wujiashu0421/Roarm_ROS/install/roarm/share/colcon-core/packages/roarm)
+[2.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wujiashu0421/Roarm_ROS/build/arm_controller': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/arm_controller/prefix_override:/home/wujiashu0421/Roarm_ROS/install/arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/arm_controller/build --no-deps install_data
+[2.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wujiashu0421/Roarm_ROS/build/feedback_service': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/feedback_service/prefix_override:/home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/feedback_service/build --no-deps install_data
+[2.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/prefix_override:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/serial_ctrl/build --no-deps install_data
+[2.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'pythonpath_develop')
+[2.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wujiashu0421/Roarm_ROS/build/arm_controller' returned '0': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/arm_controller/prefix_override:/home/wujiashu0421/Roarm_ROS/install/arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/arm_controller/build --no-deps install_data
+[2.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/build/arm_controller/share/arm_controller/hook/pythonpath_develop.ps1'
+[2.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/build/arm_controller/share/arm_controller/hook/pythonpath_develop.dsv'
+[2.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/build/arm_controller/share/arm_controller/hook/pythonpath_develop.sh'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/arm_controller' for CMake module files
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/arm_controller' for CMake config files
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/arm_controller/lib'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/arm_controller/bin'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/arm_controller/lib/pkgconfig/arm_controller.pc'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/arm_controller/lib/python3.10/site-packages'
+[2.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'pythonpath')
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/hook/pythonpath.ps1'
+[2.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/hook/pythonpath.dsv'
+[2.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/hook/pythonpath.sh'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/arm_controller/bin'
+[2.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_controller)
+[2.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/package.ps1'
+[2.880s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/package.dsv'
+[2.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/package.sh'
+[2.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/package.bash'
+[2.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/arm_controller/package.zsh'
+[2.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wujiashu0421/Roarm_ROS/install/arm_controller/share/colcon-core/packages/arm_controller)
+[2.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_ctrl', 'pythonpath_develop')
+[2.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl' returned '0': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/prefix_override:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/serial_ctrl/build --no-deps install_data
+[2.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/share/serial_ctrl/hook/pythonpath_develop.ps1'
+[2.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/share/serial_ctrl/hook/pythonpath_develop.dsv'
+[2.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/share/serial_ctrl/hook/pythonpath_develop.sh'
+[2.910s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl' for CMake module files
+[2.910s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl' for CMake config files
+[2.910s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib'
+[2.910s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/bin'
+[2.910s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/pkgconfig/serial_ctrl.pc'
+[2.911s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages'
+[2.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_ctrl', 'pythonpath')
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/hook/pythonpath.ps1'
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/hook/pythonpath.dsv'
+[2.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/hook/pythonpath.sh'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/bin'
+[2.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_ctrl)
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/package.ps1'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/package.dsv'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/package.sh'
+[2.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/package.bash'
+[2.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/serial_ctrl/package.zsh'
+[2.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/share/colcon-core/packages/serial_ctrl)
+[2.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('feedback_service', 'pythonpath_develop')
+[2.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wujiashu0421/Roarm_ROS/build/feedback_service' returned '0': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/feedback_service/prefix_override:/home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/feedback_service/build --no-deps install_data
+[2.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/build/feedback_service/share/feedback_service/hook/pythonpath_develop.ps1'
+[2.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/build/feedback_service/share/feedback_service/hook/pythonpath_develop.dsv'
+[2.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/build/feedback_service/share/feedback_service/hook/pythonpath_develop.sh'
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/feedback_service' for CMake module files
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/feedback_service' for CMake config files
+[2.967s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/feedback_service/lib'
+[2.967s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/feedback_service/bin'
+[2.967s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/pkgconfig/feedback_service.pc'
+[2.967s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/feedback_service/lib/python3.10/site-packages'
+[2.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('feedback_service', 'pythonpath')
+[2.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/hook/pythonpath.ps1'
+[2.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/hook/pythonpath.dsv'
+[2.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/hook/pythonpath.sh'
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/wujiashu0421/Roarm_ROS/install/feedback_service/bin'
+[2.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(feedback_service)
+[2.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/package.ps1'
+[2.991s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/package.dsv'
+[2.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/package.sh'
+[2.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/package.bash'
+[2.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/feedback_service/package.zsh'
+[2.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wujiashu0421/Roarm_ROS/install/feedback_service/share/colcon-core/packages/feedback_service)
+[2.993s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.994s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.994s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.994s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.010s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.010s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.010s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.015s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.027s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wujiashu0421/Roarm_ROS/install/local_setup.ps1'
+[3.028s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wujiashu0421/Roarm_ROS/install/_local_setup_util_ps1.py'
+[3.029s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wujiashu0421/Roarm_ROS/install/setup.ps1'
+[3.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wujiashu0421/Roarm_ROS/install/local_setup.sh'
+[3.041s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wujiashu0421/Roarm_ROS/install/_local_setup_util_sh.py'
+[3.042s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wujiashu0421/Roarm_ROS/install/setup.sh'
+[3.056s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wujiashu0421/Roarm_ROS/install/local_setup.bash'
+[3.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wujiashu0421/Roarm_ROS/install/setup.bash'
+[3.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wujiashu0421/Roarm_ROS/install/local_setup.zsh'
+[3.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wujiashu0421/Roarm_ROS/install/setup.zsh'

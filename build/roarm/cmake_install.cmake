@@ -43,77 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm" TYPE DIRECTORY FILES
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/config"
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/launch"
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/maps"
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/meshes"
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/models"
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/params"
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/rviz"
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/src"
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/urdf"
-    "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/worlds"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/roarm")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/roarm")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm/environment" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm/environment" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_index/share/ament_index/resource_index/packages/roarm")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm/cmake" TYPE FILE FILES
-    "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_core/roarmConfig.cmake"
-    "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_core/roarmConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roarm" TYPE FILE FILES "/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm/package.xml")
+  include("/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
