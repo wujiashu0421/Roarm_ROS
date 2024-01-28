@@ -1,0 +1,18 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/wujiashu0421/Roarm_ROS/build/serial_ctrl",
+        "/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages",
+        "/home/wujiashu0421/Roarm_ROS/build/Arm_Controller",
+        "/home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/home/wujiashu0421/Roarm_ROS/build/serial_ctrl",
+        "/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages",
+        "/home/wujiashu0421/Roarm_ROS/build/Arm_Controller",
+        "/home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/Arm_Controller/Arm_Controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/Arm_Controller/Arm_Controller.egg-info/dependency_links.txt
+writing entry points to ../../build/Arm_Controller/Arm_Controller.egg-info/entry_points.txt
+writing requirements to ../../build/Arm_Controller/Arm_Controller.egg-info/requires.txt
+writing top-level names to ../../build/Arm_Controller/Arm_Controller.egg-info/top_level.txt
+reading manifest file '../../build/Arm_Controller/Arm_Controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/Arm_Controller/Arm_Controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages/Arm_Controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/Arm_Controller/Arm_Controller.egg-info to /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages/Arm_Controller-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wujiashu0421/Roarm_ROS/build/Arm_Controller/install.log'

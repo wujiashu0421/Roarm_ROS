@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/launch/roarm.launch.py
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/L1.stl
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/L2.stl
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/L3.stl
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/L4.stl
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/meshes/base.stl
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/rviz/rviz_basic_settings.rviz
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/urdf/roarm.urdf
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/ament_index/resource_index/package_run_dependencies/roarm
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/ament_index/resource_index/parent_prefix_path/roarm
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/environment/path.sh
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/environment/path.dsv
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/local_setup.bash
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/local_setup.sh
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/local_setup.zsh
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/local_setup.dsv
+-- Symlinking: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.dsv
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/ament_index/resource_index/packages/roarm
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/cmake/roarmConfig.cmake
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/cmake/roarmConfig-version.cmake
+-- Up-to-date symlink: /home/wujiashu0421/Roarm_ROS/install/roarm/share/roarm/package.xml

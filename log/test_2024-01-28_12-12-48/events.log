@@ -1,0 +1,781 @@
+[0.000000] (-) TimerEvent: {}
+[0.000660] (arm_controller) JobQueued: {'identifier': 'arm_controller', 'dependencies': OrderedDict([('arm_controller', '/home/wujiashu0421/Roarm_ROS/install/arm_controller')])}
+[0.000736] (roarm) JobQueued: {'identifier': 'roarm', 'dependencies': OrderedDict([('roarm', '/home/wujiashu0421/Roarm_ROS/install/roarm')])}
+[0.000781] (serial_ctrl) JobQueued: {'identifier': 'serial_ctrl', 'dependencies': OrderedDict([('serial_ctrl', '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl')])}
+[0.000804] (arm_controller) JobStarted: {'identifier': 'arm_controller'}
+[0.059347] (roarm) JobStarted: {'identifier': 'roarm'}
+[0.100129] (-) TimerEvent: {}
+[0.123745] (serial_ctrl) JobStarted: {'identifier': 'serial_ctrl'}
+[0.200359] (-) TimerEvent: {}
+[0.300915] (-) TimerEvent: {}
+[0.401328] (-) TimerEvent: {}
+[0.443061] (arm_controller) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/wujiashu0421/Roarm_ROS/src/arm_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wujiashu0421', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/wujiashu0421', 'OLDPWD': '/home/wujiashu0421', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/wujiashu0421/Roarm_ROS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wujiashu0421', 'NAME': 'DESKTOP-A603A8C', 'WSL_INTEROP': '/run/WSL/4670_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/wujiashu0421/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files/Matlab/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/wujia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/wujia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/wujia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '91dd58f0-7531-4c2c-889d-f577a193535b', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/wujiashu0421/Roarm_ROS/install/arm_controller:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/roarm:/home/wujiashu0421/Roarm_ROS/install/arm_Controller:/home/wujiashu0421/Roarm_ROS/install/Arm_Controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/wujiashu0421/Roarm_ROS/build/arm_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wujiashu0421/Roarm_ROS/build/arm_controller:/home/wujiashu0421/Roarm_ROS/install/arm_controller/lib/python3.10/site-packages:/home/wujiashu0421/Roarm_ROS/build/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages:/home/wujiashu0421/Roarm_ROS/build/arm_Controller:/home/wujiashu0421/Roarm_ROS/install/arm_Controller/lib/python3.10/site-packages:/home/wujiashu0421/Roarm_ROS/build/Arm_Controller:/home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/wujiashu0421/Roarm_ROS/install/roarm', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/wujiashu0421/Roarm_ROS/build/arm_controller/pytest.xml --junit-prefix=arm_controller -o cache_dir=/home/wujiashu0421/Roarm_ROS/build/arm_controller/.pytest_cache'}, 'shell': False}
+[0.501533] (-) TimerEvent: {}
+[0.601958] (-) TimerEvent: {}
+[0.702533] (-) TimerEvent: {}
+[0.713661] (serial_ctrl) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/serial_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wujiashu0421', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/wujiashu0421', 'OLDPWD': '/home/wujiashu0421', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/wujiashu0421/Roarm_ROS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wujiashu0421', 'NAME': 'DESKTOP-A603A8C', 'WSL_INTEROP': '/run/WSL/4670_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/wujiashu0421/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files/Matlab/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/wujia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/wujia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/wujia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '91dd58f0-7531-4c2c-889d-f577a193535b', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/roarm:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/home/wujiashu0421/Roarm_ROS/install/arm_Controller:/home/wujiashu0421/Roarm_ROS/install/Arm_Controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages:/home/wujiashu0421/Roarm_ROS/build/arm_controller:/home/wujiashu0421/Roarm_ROS/install/arm_controller/lib/python3.10/site-packages:/home/wujiashu0421/Roarm_ROS/build/arm_Controller:/home/wujiashu0421/Roarm_ROS/install/arm_Controller/lib/python3.10/site-packages:/home/wujiashu0421/Roarm_ROS/build/Arm_Controller:/home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/wujiashu0421/Roarm_ROS/install/roarm', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/pytest.xml --junit-prefix=serial_ctrl -o cache_dir=/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/.pytest_cache'}, 'shell': False}
+[0.718453] (roarm) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/wujiashu0421/Roarm_ROS/build/roarm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wujiashu0421'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/wujiashu0421'), ('OLDPWD', '/home/wujiashu0421'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wujiashu0421/Roarm_ROS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wujiashu0421'), ('NAME', 'DESKTOP-A603A8C'), ('WSL_INTEROP', '/run/WSL/4670_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wujiashu0421/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Program Files/Matlab/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/wujia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/wujia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/wujia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '91dd58f0-7531-4c2c-889d-f577a193535b'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/roarm:/home/wujiashu0421/Roarm_ROS/install/arm_controller:/home/wujiashu0421/Roarm_ROS/install/arm_Controller:/home/wujiashu0421/Roarm_ROS/install/Arm_Controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/wujiashu0421/Roarm_ROS/build/roarm'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages:/home/wujiashu0421/Roarm_ROS/build/arm_controller:/home/wujiashu0421/Roarm_ROS/install/arm_controller/lib/python3.10/site-packages:/home/wujiashu0421/Roarm_ROS/build/arm_Controller:/home/wujiashu0421/Roarm_ROS/install/arm_Controller/lib/python3.10/site-packages:/home/wujiashu0421/Roarm_ROS/build/Arm_Controller:/home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/wujiashu0421/Roarm_ROS/install/roarm'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.723183] (roarm) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/wujiashu0421/Roarm_ROS/build/roarm/CTestConfiguration.ini\n'}
+[0.723458] (roarm) StdoutLine: {'line': b'Parse Config file:/home/wujiashu0421/Roarm_ROS/build/roarm/CTestConfiguration.ini\n'}
+[0.723526] (roarm) StdoutLine: {'line': b'   Site: DESKTOP-A603A8C\n'}
+[0.723582] (roarm) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.723772] (roarm) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.723848] (roarm) StdoutLine: {'line': b'Create new tag: 20240128-0112 - Experimental\n'}
+[0.723901] (roarm) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/wujiashu0421/Roarm_ROS/build/roarm/CTestConfiguration.ini\n'}
+[0.723953] (roarm) StdoutLine: {'line': b'Parse Config file:/home/wujiashu0421/Roarm_ROS/build/roarm/CTestConfiguration.ini\n'}
+[0.724006] (roarm) StdoutLine: {'line': b'Test project /home/wujiashu0421/Roarm_ROS/build/roarm\n'}
+[0.724057] (roarm) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.724230] (roarm) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.724306] (roarm) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.724359] (roarm) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.724410] (roarm) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.724461] (roarm) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.724511] (roarm) StdoutLine: {'line': b'test 1\n'}
+[0.724562] (roarm) StdoutLine: {'line': b'    Start 1: flake8\n'}
+[0.724621] (roarm) StdoutLine: {'line': b'\n'}
+[0.724673] (roarm) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/flake8.xunit.xml" "--package-name" "roarm" "--output-file" "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/flake8.xunit.xml"\n'}
+[0.724728] (roarm) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.730659] (arm_controller) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.730911] (arm_controller) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.735146] (arm_controller) StdoutLine: {'line': b'cachedir: /home/wujiashu0421/Roarm_ROS/build/arm_controller/.pytest_cache\n'}
+[0.735469] (arm_controller) StdoutLine: {'line': b'rootdir: /home/wujiashu0421/Roarm_ROS/src/arm_controller\n'}
+[0.735767] (arm_controller) StdoutLine: {'line': b'plugins: ament-xmllint-0.12.9, launch-testing-1.0.4, ament-pep257-0.12.9, ament-lint-0.12.9, ament-copyright-0.12.9, launch-testing-ros-0.19.6, ament-flake8-0.12.9, colcon-core-0.15.1, cov-3.0.0\n'}
+[0.785439] (roarm) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm':\n"}
+[0.785734] (roarm) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/flake8.xunit.xml\n'}
+[0.802699] (-) TimerEvent: {}
+[0.840620] (arm_controller) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.840884] (arm_controller) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.841139] (arm_controller) StdoutLine: {'line': b'\n'}
+[0.846435] (arm_controller) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.902879] (-) TimerEvent: {}
+[0.956931] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.957444] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.957508] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.957560] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.957609] (roarm) StdoutLine: {'line': b'1: def generate_launch_description():\n'}
+[0.957658] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.957706] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.957752] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.957797] (roarm) StdoutLine: {'line': b'1:   # Set the path to this package.\n'}
+[0.957844] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.957891] (roarm) StdoutLine: {'line': b"1:   pkg_share = FindPackageShare(package='roarm').find('roarm')\n"}
+[0.957938] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.957984] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.958029] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.958077] (roarm) StdoutLine: {'line': b'1:   # Set the path to the RViz configuration settings\n'}
+[0.958124] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.958169] (roarm) StdoutLine: {'line': b"1:   default_rviz_config_path = os.path.join(pkg_share, 'rviz/rviz_basic_settings.rviz')\n"}
+[0.958217] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.958262] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.958308] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.958354] (roarm) StdoutLine: {'line': b'1:   # Set the path to the URDF file\n'}
+[0.958400] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.958445] (roarm) StdoutLine: {'line': b"1:   default_urdf_model_path = os.path.join(pkg_share, 'urdf/roarm.urdf')\n"}
+[0.958492] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.958539] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.958585] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.958631] (roarm) StdoutLine: {'line': b'1:   ########### YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE ##############  \n'}
+[0.958678] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.958734] (roarm) StdoutLine: {'line': b'1:   ########### YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE ##############  \n'}
+[0.958783] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.958829] (roarm) StdoutLine: {'line': b'1:   ########### YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE ##############  \n'}
+[0.958876] (roarm) StdoutLine: {'line': b'1:                                                                                ^\n'}
+[0.958922] (roarm) StdoutLine: {'line': b'1:   # Launch configuration variables specific to simulation\n'}
+[0.958970] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.959017] (roarm) StdoutLine: {'line': b"1:   gui = LaunchConfiguration('gui')\n"}
+[0.959063] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.959110] (roarm) StdoutLine: {'line': b"1:   urdf_model = LaunchConfiguration('urdf_model')\n"}
+[0.959156] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.959202] (roarm) StdoutLine: {'line': b"1:   rviz_config_file = LaunchConfiguration('rviz_config_file')\n"}
+[0.959248] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.959294] (roarm) StdoutLine: {'line': b"1:   use_robot_state_pub = LaunchConfiguration('use_robot_state_pub')\n"}
+[0.959340] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.959386] (roarm) StdoutLine: {'line': b"1:   use_rviz = LaunchConfiguration('use_rviz')\n"}
+[0.959432] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.959478] (roarm) StdoutLine: {'line': b"1:   use_sim_time = LaunchConfiguration('use_sim_time')\n"}
+[0.959525] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.959572] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.959619] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.959665] (roarm) StdoutLine: {'line': b'1:   # Declare the launch arguments  \n'}
+[0.959712] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.959758] (roarm) StdoutLine: {'line': b'1:   # Declare the launch arguments  \n'}
+[0.959805] (roarm) StdoutLine: {'line': b'1:                                 ^\n'}
+[0.959851] (roarm) StdoutLine: {'line': b'1:   declare_urdf_model_path_cmd = DeclareLaunchArgument(\n'}
+[0.959898] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.959944] (roarm) StdoutLine: {'line': b"1:     name='urdf_model', \n"}
+[0.959990] (roarm) StdoutLine: {'line': b'1:                       ^\n'}
+[0.960036] (roarm) StdoutLine: {'line': b'1:     default_value=default_urdf_model_path, \n'}
+[0.960082] (roarm) StdoutLine: {'line': b'1:                                           ^\n'}
+[0.960130] (roarm) StdoutLine: {'line': b'1:      \n'}
+[0.960176] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.960222] (roarm) StdoutLine: {'line': b'1:   declare_rviz_config_file_cmd = DeclareLaunchArgument(\n'}
+[0.960274] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.960321] (roarm) StdoutLine: {'line': b'1:      \n'}
+[0.960368] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.960414] (roarm) StdoutLine: {'line': b'1:   declare_use_joint_state_publisher_cmd = DeclareLaunchArgument(\n'}
+[0.960461] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.960541] (roarm) StdoutLine: {'line': b'1:    \n'}
+[0.960606] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.960654] (roarm) StdoutLine: {'line': b'1:   declare_use_robot_state_pub_cmd = DeclareLaunchArgument(\n'}
+[0.960702] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.960748] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.960794] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.960840] (roarm) StdoutLine: {'line': b'1:   declare_use_rviz_cmd = DeclareLaunchArgument(\n'}
+[0.960888] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.960934] (roarm) StdoutLine: {'line': b'1:      \n'}
+[0.960980] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.961116] (roarm) StdoutLine: {'line': b'1:   declare_use_sim_time_cmd = DeclareLaunchArgument(\n'}
+[0.961172] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.961219] (roarm) StdoutLine: {'line': b'1:     \n'}
+[0.961266] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.961312] (roarm) StdoutLine: {'line': b'1:   # Specify the actions\n'}
+[0.961499] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.961614] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.961674] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.961730] (roarm) StdoutLine: {'line': b'1:   # Publish the joint state values for the non-fixed joints in the URDF file.\n'}
+[0.961778] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.961824] (roarm) StdoutLine: {'line': b'1:   start_joint_state_publisher_cmd = Node(\n'}
+[0.961871] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.961917] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.961964] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.962009] (roarm) StdoutLine: {'line': b'1:   # A GUI to manipulate the joint state values\n'}
+[0.962056] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.962101] (roarm) StdoutLine: {'line': b'1:   start_joint_state_publisher_gui_node = Node(\n'}
+[0.962149] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.962195] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.962240] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.962285] (roarm) StdoutLine: {'line': b'1:   # Subscribe to the joint states of the robot, and publish the 3D pose of each link.\n'}
+[0.962332] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.962377] (roarm) StdoutLine: {'line': b'1:   start_robot_state_publisher_cmd = Node(\n'}
+[0.962424] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.962469] (roarm) StdoutLine: {'line': b"1:     parameters=[{'use_sim_time': use_sim_time, \n"}
+[0.962515] (roarm) StdoutLine: {'line': b'1:                                               ^\n'}
+[0.962561] (roarm) StdoutLine: {'line': b"1:     'robot_description': Command(['xacro ', urdf_model])}],\n"}
+[0.962615] (roarm) StdoutLine: {'line': b'1:     ^\n'}
+[0.962661] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.962707] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.962752] (roarm) StdoutLine: {'line': b'1:   # Launch RViz\n'}
+[0.962797] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.962843] (roarm) StdoutLine: {'line': b'1:   start_rviz_cmd = Node(\n'}
+[0.962889] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.962934] (roarm) StdoutLine: {'line': b'1:    \n'}
+[0.962980] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.963025] (roarm) StdoutLine: {'line': b'1:   # Create the launch description and populate\n'}
+[0.963071] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.963117] (roarm) StdoutLine: {'line': b'1:   ld = LaunchDescription()\n'}
+[0.963162] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.963207] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.963253] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.963299] (roarm) StdoutLine: {'line': b'1:   # Declare the launch options\n'}
+[0.963345] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.963392] (roarm) StdoutLine: {'line': b'1:   ld.add_action(declare_urdf_model_path_cmd)\n'}
+[0.963440] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.963485] (roarm) StdoutLine: {'line': b'1:   ld.add_action(declare_rviz_config_file_cmd)\n'}
+[0.963531] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.963576] (roarm) StdoutLine: {'line': b'1:   ld.add_action(declare_use_joint_state_publisher_cmd)\n'}
+[0.963621] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.963667] (roarm) StdoutLine: {'line': b'1:   ld.add_action(declare_use_robot_state_pub_cmd)  \n'}
+[0.963713] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.963759] (roarm) StdoutLine: {'line': b'1:   ld.add_action(declare_use_robot_state_pub_cmd)  \n'}
+[0.963806] (roarm) StdoutLine: {'line': b'1:                                                 ^\n'}
+[0.963853] (roarm) StdoutLine: {'line': b'1:   ld.add_action(declare_use_rviz_cmd) \n'}
+[0.963900] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.963947] (roarm) StdoutLine: {'line': b'1:   ld.add_action(declare_use_rviz_cmd) \n'}
+[0.963994] (roarm) StdoutLine: {'line': b'1:                                      ^\n'}
+[0.964040] (roarm) StdoutLine: {'line': b'1:   ld.add_action(declare_use_sim_time_cmd)\n'}
+[0.964086] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.964132] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.964178] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.964223] (roarm) StdoutLine: {'line': b'1:   # Add any actions\n'}
+[0.964270] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.964316] (roarm) StdoutLine: {'line': b'1:   ld.add_action(start_joint_state_publisher_cmd)\n'}
+[0.964363] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.964415] (roarm) StdoutLine: {'line': b'1:   ld.add_action(start_joint_state_publisher_gui_node)\n'}
+[0.964463] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.964509] (roarm) StdoutLine: {'line': b'1:   ld.add_action(start_robot_state_publisher_cmd)\n'}
+[0.964556] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.964602] (roarm) StdoutLine: {'line': b'1:   ld.add_action(start_rviz_cmd)\n'}
+[0.964650] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.964696] (roarm) StdoutLine: {'line': b'1:  \n'}
+[0.964742] (roarm) StdoutLine: {'line': b'1: ^\n'}
+[0.964789] (roarm) StdoutLine: {'line': b'1:   return ld\n'}
+[0.964837] (roarm) StdoutLine: {'line': b'1:   ^\n'}
+[0.964901] (roarm) StdoutLine: {'line': b'1: 31    E111 indentation is not a multiple of 4\n'}
+[0.964956] (roarm) StdoutLine: {'line': b'1: 14    E114 indentation is not a multiple of 4 (comment)\n'}
+[0.965004] (roarm) StdoutLine: {'line': b'1: 1     E128 continuation line under-indented for visual indent\n'}
+[0.965052] (roarm) StdoutLine: {'line': b"1: 1     E266 too many leading '#' for block comment\n"}
+[0.965099] (roarm) StdoutLine: {'line': b'1: 1     E302 expected 2 blank lines, found 1\n'}
+[0.965146] (roarm) StdoutLine: {'line': b'1: 7     W291 trailing whitespace\n'}
+[0.965193] (roarm) StdoutLine: {'line': b'1: 21    W293 blank line contains whitespace\n'}
+[0.965239] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.965285] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:5:1: W293 blank line contains whitespace\n'}
+[0.965332] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.965378] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:13:1: W293 blank line contains whitespace\n'}
+[0.965424] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.965471] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:14:1: E302 expected 2 blank lines, found 1\n'}
+[0.965517] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.965564] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:15:1: W293 blank line contains whitespace\n'}
+[0.965610] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.965657] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:16:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.965704] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.965751] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:17:3: E111 indentation is not a multiple of 4\n'}
+[0.965798] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.965844] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:18:1: W293 blank line contains whitespace\n'}
+[0.965890] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.965935] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:19:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.965982] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966029] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:20:3: E111 indentation is not a multiple of 4\n'}
+[0.966083] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966131] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:21:1: W293 blank line contains whitespace\n'}
+[0.966178] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966224] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:22:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.966271] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966317] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:23:3: E111 indentation is not a multiple of 4\n'}
+[0.966364] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966410] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:24:1: W293 blank line contains whitespace\n'}
+[0.966456] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966502] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:25:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.966548] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966594] (roarm) StdoutLine: {'line': b"1: ./launch/roarm.launch.py:25:3: E266 too many leading '#' for block comment\n"}
+[0.966640] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966686] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:25:80: W291 trailing whitespace\n'}
+[0.966737] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966783] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:26:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.966830] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.966878] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:27:3: E111 indentation is not a multiple of 4\n'}
+[0.966965] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967018] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:28:3: E111 indentation is not a multiple of 4\n'}
+[0.967067] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967115] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:29:3: E111 indentation is not a multiple of 4\n'}
+[0.967163] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967209] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:30:3: E111 indentation is not a multiple of 4\n'}
+[0.967257] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967303] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:31:3: E111 indentation is not a multiple of 4\n'}
+[0.967350] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967426] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:32:3: E111 indentation is not a multiple of 4\n'}
+[0.967488] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967537] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:33:1: W293 blank line contains whitespace\n'}
+[0.967586] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967633] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:34:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.967681] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967729] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:34:33: W291 trailing whitespace\n'}
+[0.967776] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967823] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:35:3: E111 indentation is not a multiple of 4\n'}
+[0.967870] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.967917] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:36:23: W291 trailing whitespace\n'}
+[0.967963] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968009] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:37:43: W291 trailing whitespace\n'}
+[0.968055] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968101] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:39:1: W293 blank line contains whitespace\n'}
+[0.968147] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968193] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:40:3: E111 indentation is not a multiple of 4\n'}
+[0.968239] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968285] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:44:1: W293 blank line contains whitespace\n'}
+[0.968331] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968376] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:45:3: E111 indentation is not a multiple of 4\n'}
+[0.968421] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968470] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:49:1: W293 blank line contains whitespace\n'}
+[0.968517] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968562] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:50:3: E111 indentation is not a multiple of 4\n'}
+[0.968620] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968667] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:54:1: W293 blank line contains whitespace\n'}
+[0.968713] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968759] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:55:3: E111 indentation is not a multiple of 4\n'}
+[0.968805] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968852] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:59:1: W293 blank line contains whitespace\n'}
+[0.968898] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.968944] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:60:3: E111 indentation is not a multiple of 4\n'}
+[0.968991] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969037] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:64:1: W293 blank line contains whitespace\n'}
+[0.969082] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969128] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:65:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.969182] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969231] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:66:1: W293 blank line contains whitespace\n'}
+[0.969277] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969323] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:67:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.969370] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969416] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:68:3: E111 indentation is not a multiple of 4\n'}
+[0.969462] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969508] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:73:1: W293 blank line contains whitespace\n'}
+[0.969554] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969600] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:74:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.969645] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969693] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:75:3: E111 indentation is not a multiple of 4\n'}
+[0.969738] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969784] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:80:1: W293 blank line contains whitespace\n'}
+[0.969830] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969876] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:81:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.969921] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.969971] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:82:3: E111 indentation is not a multiple of 4\n'}
+[0.970016] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970062] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:86:47: W291 trailing whitespace\n'}
+[0.970108] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970154] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:87:5: E128 continuation line under-indented for visual indent\n'}
+[0.970207] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970254] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:89:1: W293 blank line contains whitespace\n'}
+[0.970299] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970344] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:90:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.970390] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970435] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:91:3: E111 indentation is not a multiple of 4\n'}
+[0.970481] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970526] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:98:1: W293 blank line contains whitespace\n'}
+[0.970571] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970616] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:99:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.970662] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970709] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:100:3: E111 indentation is not a multiple of 4\n'}
+[0.970755] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970803] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:101:1: W293 blank line contains whitespace\n'}
+[0.970849] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970895] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:102:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.970941] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.970986] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:103:3: E111 indentation is not a multiple of 4\n'}
+[0.971032] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971077] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:104:3: E111 indentation is not a multiple of 4\n'}
+[0.971123] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971168] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:105:3: E111 indentation is not a multiple of 4\n'}
+[0.971214] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971259] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:106:3: E111 indentation is not a multiple of 4\n'}
+[0.971305] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971359] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:106:49: W291 trailing whitespace\n'}
+[0.971407] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971455] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:107:3: E111 indentation is not a multiple of 4\n'}
+[0.971501] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971548] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:107:38: W291 trailing whitespace\n'}
+[0.971594] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971639] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:108:3: E111 indentation is not a multiple of 4\n'}
+[0.971685] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971731] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:109:1: W293 blank line contains whitespace\n'}
+[0.971778] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971825] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:110:3: E114 indentation is not a multiple of 4 (comment)\n'}
+[0.971872] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.971919] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:111:3: E111 indentation is not a multiple of 4\n'}
+[0.971965] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972012] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:112:3: E111 indentation is not a multiple of 4\n'}
+[0.972058] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972104] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:113:3: E111 indentation is not a multiple of 4\n'}
+[0.972151] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972200] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:114:3: E111 indentation is not a multiple of 4\n'}
+[0.972246] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972291] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:115:1: W293 blank line contains whitespace\n'}
+[0.972337] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972384] (roarm) StdoutLine: {'line': b'1: ./launch/roarm.launch.py:116:3: E111 indentation is not a multiple of 4\n'}
+[0.972430] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972476] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972522] (roarm) StdoutLine: {'line': b'1: 1 files checked\n'}
+[0.972568] (roarm) StdoutLine: {'line': b'1: 76 errors\n'}
+[0.972617] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972664] (roarm) StdoutLine: {'line': b"1: 'E'-type errors: 48\n"}
+[0.972713] (roarm) StdoutLine: {'line': b"1: 'W'-type errors: 28\n"}
+[0.972761] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972807] (roarm) StdoutLine: {'line': b'1: Checked files:\n'}
+[0.972855] (roarm) StdoutLine: {'line': b'1: \n'}
+[0.972903] (roarm) StdoutLine: {'line': b'1: * ./launch/roarm.launch.py\n'}
+[0.972956] (arm_controller) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.979167] (roarm) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.979449] (roarm) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/flake8.xunit.xml'\n"}
+[0.980345] (arm_controller) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.980672] (arm_controller) StdoutLine: {'line': b'\n'}
+[0.980749] (arm_controller) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.980805] (arm_controller) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.980856] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.997132] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.997299] (serial_ctrl) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[1.000507] (serial_ctrl) StdoutLine: {'line': b'cachedir: /home/wujiashu0421/Roarm_ROS/build/serial_ctrl/.pytest_cache\n'}
+[1.000822] (serial_ctrl) StdoutLine: {'line': b'rootdir: /home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/serial_ctrl\n'}
+[1.000908] (serial_ctrl) StdoutLine: {'line': b'plugins: ament-xmllint-0.12.9, launch-testing-1.0.4, ament-pep257-0.12.9, ament-lint-0.12.9, ament-copyright-0.12.9, launch-testing-ros-0.19.6, ament-flake8-0.12.9, colcon-core-0.15.1, cov-3.0.0\n'}
+[1.002723] (roarm) StdoutLine: {'line': b'1/4 Test #1: flake8 ...........................***Failed    0.28 sec\n'}
+[1.002928] (-) TimerEvent: {}
+[1.003087] (roarm) StdoutLine: {'line': b'test 2\n'}
+[1.003166] (roarm) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[1.003220] (roarm) StdoutLine: {'line': b'\n'}
+[1.003302] (roarm) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/lint_cmake.xunit.xml" "--package-name" "roarm" "--output-file" "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/lint_cmake.xunit.xml"\n'}
+[1.003380] (roarm) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[1.029847] (arm_controller) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[1.030656] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 16 code style errors / warnings:\x1b[0m\n'}
+[1.030852] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/controller_node.py:6:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[1.031075] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/controller_node.py:7:1: W293 blank line contains whitespace\x1b[0m\n'}
+[1.031263] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/controller_node.py:12:1: W293 blank line contains whitespace\x1b[0m\n'}
+[1.031333] (arm_controller) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./arm_controller/controller_node.py:18:5: E266 too many leading '#' for block comment\x1b[0m\n"}
+[1.031388] (arm_controller) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./arm_controller/controller_node.py:24:5: E266 too many leading '#' for block comment\x1b[0m\n"}
+[1.031438] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/controller_node.py:27:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[1.031487] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/controller_node.py:29:1: W391 blank line at end of file\x1b[0m\n'}
+[1.031535] (arm_controller) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./arm_controller/arm_node.py:5:1: F401 'geometry_msgs.msg.Twist' imported but unused\x1b[0m\n"}
+[1.031582] (arm_controller) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./arm_controller/arm_node.py:5:1: F401 'geometry_msgs.msg.Point' imported but unused\x1b[0m\n"}
+[1.031629] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/arm_node.py:8:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[1.031676] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/arm_node.py:15:1: W293 blank line contains whitespace\x1b[0m\n'}
+[1.031723] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/arm_node.py:17:1: W293 blank line contains whitespace\x1b[0m\n'}
+[1.031769] (arm_controller) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./arm_controller/arm_node.py:18:9: F841 local variable 'msg' is assigned to but never used\x1b[0m\n"}
+[1.031816] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/arm_node.py:22:1: E303 too many blank lines (3)\x1b[0m\n'}
+[1.031895] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/arm_node.py:27:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[1.031990] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./arm_controller/arm_node.py:28:11: W292 no newline at end of file\x1b[0m\n'}
+[1.032055] (arm_controller) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[1.032109] (arm_controller) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[1.032161] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.032273] (arm_controller) StdoutLine: {'line': b'./arm_controller/controller_node.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[1.032333] (arm_controller) StdoutLine: {'line': b'class CommNode(Node):\n'}
+[1.032458] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.032526] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.032579] (arm_controller) StdoutLine: {'line': b'./arm_controller/controller_node.py:7:1: W293 blank line contains whitespace\n'}
+[1.032629] (arm_controller) StdoutLine: {'line': b'    \n'}
+[1.032677] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.032778] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.032840] (arm_controller) StdoutLine: {'line': b'./arm_controller/controller_node.py:12:1: W293 blank line contains whitespace\n'}
+[1.032892] (arm_controller) StdoutLine: {'line': b'    \n'}
+[1.032941] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.033020] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.033073] (arm_controller) StdoutLine: {'line': b"./arm_controller/controller_node.py:18:5: E266 too many leading '#' for block comment\n"}
+[1.033124] (arm_controller) StdoutLine: {'line': b'    ## Initiate ROS 2 communication , equivlent to ROS::start in ros1 i think\n'}
+[1.033172] (arm_controller) StdoutLine: {'line': b'    ^\n'}
+[1.033220] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.033268] (arm_controller) StdoutLine: {'line': b"./arm_controller/controller_node.py:24:5: E266 too many leading '#' for block comment\n"}
+[1.033389] (arm_controller) StdoutLine: {'line': b'    ## Stop ROS communication service entirely\n'}
+[1.033447] (arm_controller) StdoutLine: {'line': b'    ^\n'}
+[1.033496] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.033545] (arm_controller) StdoutLine: {'line': b'./arm_controller/controller_node.py:27:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.033595] (arm_controller) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[1.033643] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.033690] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.033737] (arm_controller) StdoutLine: {'line': b'./arm_controller/controller_node.py:29:1: W391 blank line at end of file\n'}
+[1.033786] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.033834] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.033882] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.033929] (arm_controller) StdoutLine: {'line': b"./arm_controller/arm_node.py:5:1: F401 'geometry_msgs.msg.Twist' imported but unused\n"}
+[1.033977] (arm_controller) StdoutLine: {'line': b'from geometry_msgs.msg import Twist, Point, Pose\n'}
+[1.034089] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.034145] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.034194] (arm_controller) StdoutLine: {'line': b"./arm_controller/arm_node.py:5:1: F401 'geometry_msgs.msg.Point' imported but unused\n"}
+[1.034242] (arm_controller) StdoutLine: {'line': b'from geometry_msgs.msg import Twist, Point, Pose\n'}
+[1.034291] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.034340] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.034387] (arm_controller) StdoutLine: {'line': b'./arm_controller/arm_node.py:8:1: E302 expected 2 blank lines, found 1\n'}
+[1.034450] (arm_controller) StdoutLine: {'line': b'class ArmInfoNode(Node):\n'}
+[1.034498] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.034545] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.034640] (arm_controller) StdoutLine: {'line': b'./arm_controller/arm_node.py:15:1: W293 blank line contains whitespace\n'}
+[1.034709] (arm_controller) StdoutLine: {'line': b'    \n'}
+[1.034761] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.034810] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.034857] (arm_controller) StdoutLine: {'line': b'./arm_controller/arm_node.py:17:1: W293 blank line contains whitespace\n'}
+[1.034979] (arm_controller) StdoutLine: {'line': b'        \n'}
+[1.035033] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.035081] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.035130] (arm_controller) StdoutLine: {'line': b"./arm_controller/arm_node.py:18:9: F841 local variable 'msg' is assigned to but never used\n"}
+[1.035179] (arm_controller) StdoutLine: {'line': b'        msg = Pose()\n'}
+[1.035290] (arm_controller) StdoutLine: {'line': b'        ^\n'}
+[1.035342] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.035390] (arm_controller) StdoutLine: {'line': b'./arm_controller/arm_node.py:22:1: E303 too many blank lines (3)\n'}
+[1.035440] (arm_controller) StdoutLine: {'line': b'def main(args=None):\n'}
+[1.035489] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.035536] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.035584] (arm_controller) StdoutLine: {'line': b'./arm_controller/arm_node.py:27:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.035633] (arm_controller) StdoutLine: {'line': b'if __name__ == "__main__":\n'}
+[1.035682] (arm_controller) StdoutLine: {'line': b'^\n'}
+[1.035730] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.035778] (arm_controller) StdoutLine: {'line': b'./arm_controller/arm_node.py:28:11: W292 no newline at end of file\n'}
+[1.035872] (arm_controller) StdoutLine: {'line': b'    main()          ^\n'}
+[1.035938] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.035989] (arm_controller) StdoutLine: {'line': b"2     E266 too many leading '#' for block comment\n"}
+[1.036039] (arm_controller) StdoutLine: {'line': b'2     E302 expected 2 blank lines, found 1\n'}
+[1.036088] (arm_controller) StdoutLine: {'line': b'1     E303 too many blank lines (3)\n'}
+[1.036136] (arm_controller) StdoutLine: {'line': b'2     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.036187] (arm_controller) StdoutLine: {'line': b"2     F401 'geometry_msgs.msg.Twist' imported but unused\n"}
+[1.036236] (arm_controller) StdoutLine: {'line': b"1     F841 local variable 'msg' is assigned to but never used\n"}
+[1.036284] (arm_controller) StdoutLine: {'line': b'1     W292 no newline at end of file\n'}
+[1.036333] (arm_controller) StdoutLine: {'line': b'4     W293 blank line contains whitespace\n'}
+[1.036381] (arm_controller) StdoutLine: {'line': b'1     W391 blank line at end of file\n'}
+[1.036429] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.036539] (arm_controller) StdoutLine: {'line': b'7 files checked\n'}
+[1.036596] (arm_controller) StdoutLine: {'line': b'16 errors\n'}
+[1.036646] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.036695] (arm_controller) StdoutLine: {'line': b"'E'-type errors: 7\n"}
+[1.036744] (arm_controller) StdoutLine: {'line': b"'F'-type errors: 3\n"}
+[1.036793] (arm_controller) StdoutLine: {'line': b"'W'-type errors: 6\n"}
+[1.036841] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.036889] (arm_controller) StdoutLine: {'line': b'Checked files:\n'}
+[1.036938] (arm_controller) StdoutLine: {'line': b'\n'}
+[1.036986] (arm_controller) StdoutLine: {'line': b'* ./setup.py\n'}
+[1.037035] (arm_controller) StdoutLine: {'line': b'* ./arm_controller/controller_node.py\n'}
+[1.037084] (arm_controller) StdoutLine: {'line': b'* ./arm_controller/__init__.py\n'}
+[1.037195] (arm_controller) StdoutLine: {'line': b'* ./arm_controller/arm_node.py\n'}
+[1.037246] (arm_controller) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[1.037296] (arm_controller) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[1.037344] (arm_controller) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[1.037419] (arm_controller) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[1.037472] (arm_controller) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.037525] (arm_controller) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[1.037612] (arm_controller) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.037667] (arm_controller) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.037715] (arm_controller) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[1.037829] (arm_controller) StderrLine: {'line': b'\n'}
+[1.037879] (arm_controller) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[1.037928] (arm_controller) StdoutLine: {'line': b'- generated xml file: /home/wujiashu0421/Roarm_ROS/build/arm_controller/pytest.xml -\n'}
+[1.037977] (arm_controller) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[1.038026] (arm_controller) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 16 code style...\n'}
+[1.038080] (arm_controller) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.30s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[1.060317] (roarm) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm':\n"}
+[1.060626] (roarm) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/lint_cmake.xunit.xml\n'}
+[1.079166] (serial_ctrl) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[1.079419] (serial_ctrl) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[1.079558] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.086224] (serial_ctrl) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[1.103083] (-) TimerEvent: {}
+[1.129023] (roarm) StdoutLine: {'line': b'2: \n'}
+[1.129255] (roarm) StdoutLine: {'line': b'2: No problems found\n'}
+[1.152210] (roarm) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.152686] (roarm) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/lint_cmake.xunit.xml'\n"}
+[1.166990] (roarm) StdoutLine: {'line': b'2/4 Test #2: lint_cmake .......................   Passed    0.16 sec\n'}
+[1.167307] (roarm) StdoutLine: {'line': b'test 3\n'}
+[1.167371] (roarm) StdoutLine: {'line': b'    Start 3: pep257\n'}
+[1.167423] (roarm) StdoutLine: {'line': b'\n'}
+[1.167471] (roarm) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/pep257.xunit.xml" "--package-name" "roarm" "--output-file" "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/pep257.xunit.xml"\n'}
+[1.167532] (roarm) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[1.179223] (arm_controller) CommandEnded: {'returncode': 1}
+[1.179680] (arm_controller) TestFailure: {'identifier': 'arm_controller'}
+[1.179711] (arm_controller) JobEnded: {'identifier': 'arm_controller', 'rc': 0}
+[1.203261] (-) TimerEvent: {}
+[1.205360] (serial_ctrl) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[1.225054] (serial_ctrl) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[1.225374] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.225443] (serial_ctrl) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[1.225498] (serial_ctrl) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[1.225550] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[1.225847] (roarm) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm':\n"}
+[1.225959] (roarm) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/pep257.xunit.xml\n'}
+[1.260477] (serial_ctrl) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[1.261189] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 28 code style errors / warnings:\x1b[0m\n'}
+[1.261338] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:23:9: W191 indentation contains tabs\x1b[0m\n'}
+[1.261478] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:23:9: E101 indentation contains mixed spaces and tabs\x1b[0m\n'}
+[1.261631] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:3:1: F401 'array' imported but unused\x1b[0m\n"}
+[1.261776] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:6:1: F401 'std_msgs.msg.Float64' imported but unused\x1b[0m\n"}
+[1.261830] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:9:1: F401 'serial' imported but unused\x1b[0m\n"}
+[1.261881] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:12:1: E265 block comment should start with '# '\x1b[0m\n"}
+[1.261930] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:14:20: W291 trailing whitespace\x1b[0m\n'}
+[1.261979] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:18:1: E303 too many blank lines (3)\x1b[0m\n'}
+[1.262028] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:18:100: E501 line too long (104 > 99 characters)\x1b[0m\n'}
+[1.262076] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:19:1: E302 expected 2 blank lines, found 3\x1b[0m\n'}
+[1.262124] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:30:1: W293 blank line contains whitespace\x1b[0m\n'}
+[1.262171] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:32:5: E303 too many blank lines (2)\x1b[0m\n'}
+[1.262219] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:33:5: E301 expected 1 blank line, found 0\x1b[0m\n'}
+[1.262267] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:31: E231 missing whitespace after ':'\x1b[0m\n"}
+[1.262314] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:35: E231 missing whitespace after ','\x1b[0m\n"}
+[1.262362] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:42: E231 missing whitespace after ':'\x1b[0m\n"}
+[1.262409] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:47: E231 missing whitespace after ','\x1b[0m\n"}
+[1.262456] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:58: E231 missing whitespace after ':'\x1b[0m\n"}
+[1.262504] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:63: E231 missing whitespace after ','\x1b[0m\n"}
+[1.262551] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:71: E231 missing whitespace after ':'\x1b[0m\n"}
+[1.262599] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:76: E231 missing whitespace after ','\x1b[0m\n"}
+[1.262646] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:83: E231 missing whitespace after ':'\x1b[0m\n"}
+[1.262694] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:98: E231 missing whitespace after ','\x1b[0m\n"}
+[1.262782] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:100: E501 line too long (122 > 99 characters)\x1b[0m\n'}
+[1.262833] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:104: E231 missing whitespace after ':'\x1b[0m\n"}
+[1.262887] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:106: E231 missing whitespace after ','\x1b[0m\n"}
+[1.262936] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:42:112: E231 missing whitespace after ':'\x1b[0m\n"}
+[1.262986] (serial_ctrl) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./serial_ctrl/serial_ctrl.py:43:9: E265 block comment should start with '# '\x1b[0m\n"}
+[1.263034] (serial_ctrl) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[1.263082] (serial_ctrl) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[1.263131] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.263180] (serial_ctrl) StdoutLine: {'line': b'./setup.py:23:9: W191 indentation contains tabs\n'}
+[1.263228] (serial_ctrl) StdoutLine: {'line': b"        \t'serial_ctrl = serial_ctrl.serial_ctrl_py:main'\n"}
+[1.263277] (serial_ctrl) StdoutLine: {'line': b'        ^\n'}
+[1.263326] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.263374] (serial_ctrl) StdoutLine: {'line': b'./setup.py:23:9: E101 indentation contains mixed spaces and tabs\n'}
+[1.263422] (serial_ctrl) StdoutLine: {'line': b"        \t'serial_ctrl = serial_ctrl.serial_ctrl_py:main'\n"}
+[1.263478] (serial_ctrl) StdoutLine: {'line': b'        ^\n'}
+[1.263526] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.263573] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:3:1: F401 'array' imported but unused\n"}
+[1.263622] (serial_ctrl) StdoutLine: {'line': b'import array\n'}
+[1.263669] (serial_ctrl) StdoutLine: {'line': b'^\n'}
+[1.263717] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.263765] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:6:1: F401 'std_msgs.msg.Float64' imported but unused\n"}
+[1.263813] (serial_ctrl) StdoutLine: {'line': b'from std_msgs.msg import Float64\n'}
+[1.263860] (serial_ctrl) StdoutLine: {'line': b'^\n'}
+[1.263908] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.263956] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:9:1: F401 'serial' imported but unused\n"}
+[1.264004] (serial_ctrl) StdoutLine: {'line': b'import serial\n'}
+[1.264051] (serial_ctrl) StdoutLine: {'line': b'^\n'}
+[1.264098] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.264146] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:12:1: E265 block comment should start with '# '\n"}
+[1.264195] (serial_ctrl) StdoutLine: {'line': b'#ser = serial.Serial("/dev/ttyUSB0",115200)\n'}
+[1.264243] (serial_ctrl) StdoutLine: {'line': b'^\n'}
+[1.264293] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.264341] (serial_ctrl) StdoutLine: {'line': b'./serial_ctrl/serial_ctrl.py:14:20: W291 trailing whitespace\n'}
+[1.264389] (serial_ctrl) StdoutLine: {'line': b'# ROS service which \n'}
+[1.264438] (serial_ctrl) StdoutLine: {'line': b'                   ^\n'}
+[1.264487] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.264536] (serial_ctrl) StdoutLine: {'line': b'./serial_ctrl/serial_ctrl.py:18:1: E303 too many blank lines (3)\n'}
+[1.264585] (serial_ctrl) StdoutLine: {'line': b'# Subscriber which listens to any published joint state information which then commands the arm to move.\n'}
+[1.264640] (serial_ctrl) StdoutLine: {'line': b'^\n'}
+[1.264696] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.264751] (serial_ctrl) StdoutLine: {'line': b'./serial_ctrl/serial_ctrl.py:18:100: E501 line too long (104 > 99 characters)\n'}
+[1.264806] (serial_ctrl) StdoutLine: {'line': b'# Subscriber which listens to any published joint state information which then commands the arm to move.\n'}
+[1.264860] (serial_ctrl) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[1.264963] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.265033] (serial_ctrl) StdoutLine: {'line': b'./serial_ctrl/serial_ctrl.py:19:1: E302 expected 2 blank lines, found 3\n'}
+[1.265089] (serial_ctrl) StdoutLine: {'line': b'class ControlSubscriber(Node):\n'}
+[1.265142] (serial_ctrl) StdoutLine: {'line': b'^\n'}
+[1.265196] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.265249] (serial_ctrl) StdoutLine: {'line': b'./serial_ctrl/serial_ctrl.py:30:1: W293 blank line contains whitespace\n'}
+[1.265302] (serial_ctrl) StdoutLine: {'line': b'    \n'}
+[1.265354] (serial_ctrl) StdoutLine: {'line': b'^\n'}
+[1.265406] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.265457] (serial_ctrl) StdoutLine: {'line': b'./serial_ctrl/serial_ctrl.py:32:5: E303 too many blank lines (2)\n'}
+[1.265511] (serial_ctrl) StdoutLine: {'line': b'    # Get arm position\n'}
+[1.265563] (serial_ctrl) StdoutLine: {'line': b'    ^\n'}
+[1.265616] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.265668] (serial_ctrl) StdoutLine: {'line': b'./serial_ctrl/serial_ctrl.py:33:5: E301 expected 1 blank line, found 0\n'}
+[1.265721] (serial_ctrl) StdoutLine: {'line': b'    def posGet(self, radInput, direcInput, multiInput):\n'}
+[1.265773] (serial_ctrl) StdoutLine: {'line': b'    ^\n'}
+[1.265827] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.265878] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:31: E231 missing whitespace after ':'\n"}
+[1.265930] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.265985] (serial_ctrl) StdoutLine: {'line': b'                              ^\n'}
+[1.266038] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.266090] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:35: E231 missing whitespace after ','\n"}
+[1.266142] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.266195] (serial_ctrl) StdoutLine: {'line': b'                                  ^\n'}
+[1.266247] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.266298] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:42: E231 missing whitespace after ':'\n"}
+[1.266349] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.266402] (serial_ctrl) StdoutLine: {'line': b'                                         ^\n'}
+[1.266455] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.266554] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:47: E231 missing whitespace after ','\n"}
+[1.266610] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.266662] (serial_ctrl) StdoutLine: {'line': b'                                              ^\n'}
+[1.266711] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.266759] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:58: E231 missing whitespace after ':'\n"}
+[1.266808] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.266856] (serial_ctrl) StdoutLine: {'line': b'                                                         ^\n'}
+[1.266904] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.267107] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:63: E231 missing whitespace after ','\n"}
+[1.267166] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.267228] (serial_ctrl) StdoutLine: {'line': b'                                                              ^\n'}
+[1.267278] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.267327] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:71: E231 missing whitespace after ':'\n"}
+[1.267380] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.267432] (serial_ctrl) StdoutLine: {'line': b'                                                                      ^\n'}
+[1.267481] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.267529] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:76: E231 missing whitespace after ','\n"}
+[1.267578] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.267625] (serial_ctrl) StdoutLine: {'line': b'                                                                           ^\n'}
+[1.267674] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.267723] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:83: E231 missing whitespace after ':'\n"}
+[1.267770] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.267818] (serial_ctrl) StdoutLine: {'line': b'                                                                                  ^\n'}
+[1.267866] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.267914] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:98: E231 missing whitespace after ','\n"}
+[1.267962] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.268010] (serial_ctrl) StdoutLine: {'line': b'                                                                                                 ^\n'}
+[1.268058] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.268106] (serial_ctrl) StdoutLine: {'line': b'./serial_ctrl/serial_ctrl.py:42:100: E501 line too long (122 > 99 characters)\n'}
+[1.268154] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.268211] (serial_ctrl) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[1.268260] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.268308] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:104: E231 missing whitespace after ':'\n"}
+[1.268356] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.268520] (serial_ctrl) StdoutLine: {'line': b'                                                                                                       ^\n'}
+[1.268586] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.268640] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:106: E231 missing whitespace after ','\n"}
+[1.268690] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.268740] (serial_ctrl) StdoutLine: {'line': b'                                                                                                         ^\n'}
+[1.268789] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.268837] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:42:112: E231 missing whitespace after ':'\n"}
+[1.268885] (serial_ctrl) StdoutLine: {'line': b'        data = json.dumps({\'T\':102,\'base\':a[0],\'shoulder\':a[1],\'elbow\':a[2],\'hand\':a[3]+3.1415926,\'spd\':0,\'acc\':0}) + "\\n"\n'}
+[1.268934] (serial_ctrl) StdoutLine: {'line': b'                                                                                                               ^\n'}
+[1.268981] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.269028] (serial_ctrl) StdoutLine: {'line': b"./serial_ctrl/serial_ctrl.py:43:9: E265 block comment should start with '# '\n"}
+[1.269085] (serial_ctrl) StdoutLine: {'line': b'        #ser.write(data.encode())\n'}
+[1.269133] (serial_ctrl) StdoutLine: {'line': b'        ^\n'}
+[1.269180] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.269226] (serial_ctrl) StdoutLine: {'line': b'1     E101 indentation contains mixed spaces and tabs\n'}
+[1.269273] (serial_ctrl) StdoutLine: {'line': b"13    E231 missing whitespace after ':'\n"}
+[1.269320] (serial_ctrl) StdoutLine: {'line': b"2     E265 block comment should start with '# '\n"}
+[1.269367] (serial_ctrl) StdoutLine: {'line': b'1     E301 expected 1 blank line, found 0\n'}
+[1.269451] (serial_ctrl) StdoutLine: {'line': b'1     E302 expected 2 blank lines, found 3\n'}
+[1.269504] (serial_ctrl) StdoutLine: {'line': b'2     E303 too many blank lines (3)\n'}
+[1.269554] (serial_ctrl) StdoutLine: {'line': b'2     E501 line too long (104 > 99 characters)\n'}
+[1.269641] (serial_ctrl) StdoutLine: {'line': b"3     F401 'array' imported but unused\n"}
+[1.269691] (serial_ctrl) StdoutLine: {'line': b'1     W191 indentation contains tabs\n'}
+[1.269740] (serial_ctrl) StdoutLine: {'line': b'1     W291 trailing whitespace\n'}
+[1.269788] (serial_ctrl) StdoutLine: {'line': b'1     W293 blank line contains whitespace\n'}
+[1.269835] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.269881] (serial_ctrl) StdoutLine: {'line': b'6 files checked\n'}
+[1.269929] (serial_ctrl) StdoutLine: {'line': b'28 errors\n'}
+[1.269975] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.270028] (serial_ctrl) StdoutLine: {'line': b"'E'-type errors: 22\n"}
+[1.270083] (serial_ctrl) StdoutLine: {'line': b"'F'-type errors: 3\n"}
+[1.270136] (serial_ctrl) StdoutLine: {'line': b"'W'-type errors: 3\n"}
+[1.270189] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.270241] (serial_ctrl) StdoutLine: {'line': b'Checked files:\n'}
+[1.270293] (serial_ctrl) StdoutLine: {'line': b'\n'}
+[1.270344] (serial_ctrl) StdoutLine: {'line': b'* ./setup.py\n'}
+[1.270395] (serial_ctrl) StdoutLine: {'line': b'* ./serial_ctrl/serial_ctrl.py\n'}
+[1.270447] (serial_ctrl) StdoutLine: {'line': b'* ./serial_ctrl/__init__.py\n'}
+[1.270499] (serial_ctrl) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[1.270551] (serial_ctrl) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[1.270604] (serial_ctrl) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[1.270655] (serial_ctrl) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[1.270711] (serial_ctrl) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[1.270775] (serial_ctrl) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[1.270847] (serial_ctrl) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.270901] (serial_ctrl) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.270951] (serial_ctrl) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[1.271003] (serial_ctrl) StderrLine: {'line': b'\n'}
+[1.271054] (serial_ctrl) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[1.271105] (serial_ctrl) StdoutLine: {'line': b'- generated xml file: /home/wujiashu0421/Roarm_ROS/build/serial_ctrl/pytest.xml -\n'}
+[1.271157] (serial_ctrl) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[1.271209] (serial_ctrl) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 28 code style...\n'}
+[1.271260] (serial_ctrl) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.27s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[1.303466] (-) TimerEvent: {}
+[1.335656] (roarm) StdoutLine: {'line': b'3: checking ./launch/roarm.launch.py\n'}
+[1.335888] (roarm) StdoutLine: {'line': b'3: No problems found\n'}
+[1.370731] (roarm) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[1.371025] (roarm) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/pep257.xunit.xml'\n"}
+[1.381821] (roarm) StdoutLine: {'line': b'3/4 Test #3: pep257 ...........................   Passed    0.21 sec\n'}
+[1.382564] (roarm) StdoutLine: {'line': b'test 4\n'}
+[1.383134] (roarm) StdoutLine: {'line': b'    Start 4: xmllint\n'}
+[1.383230] (roarm) StdoutLine: {'line': b'\n'}
+[1.383289] (roarm) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/xmllint.xunit.xml" "--package-name" "roarm" "--output-file" "/home/wujiashu0421/Roarm_ROS/build/roarm/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/xmllint.xunit.xml"\n'}
+[1.383346] (roarm) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.383399] (serial_ctrl) CommandEnded: {'returncode': 1}
+[1.383684] (serial_ctrl) TestFailure: {'identifier': 'serial_ctrl'}
+[1.383745] (serial_ctrl) JobEnded: {'identifier': 'serial_ctrl', 'rc': 0}
+[1.403573] (-) TimerEvent: {}
+[1.435110] (roarm) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/roarm':\n"}
+[1.435287] (roarm) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/xmllint.xunit.xml\n'}
+[1.503718] (-) TimerEvent: {}
+[1.604258] (-) TimerEvent: {}
+[1.704677] (-) TimerEvent: {}
+[1.805218] (-) TimerEvent: {}
+[1.905650] (-) TimerEvent: {}
+[2.006148] (-) TimerEvent: {}
+[2.106584] (-) TimerEvent: {}
+[2.207001] (-) TimerEvent: {}
+[2.307557] (-) TimerEvent: {}
+[2.408066] (-) TimerEvent: {}
+[2.417113] (roarm) StdoutLine: {'line': b"4: File 'package.xml' is valid\n"}
+[2.417340] (roarm) StdoutLine: {'line': b'4: \n'}
+[2.417401] (roarm) StdoutLine: {'line': b'4: No problems found\n'}
+[2.424785] (roarm) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[2.425016] (roarm) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/wujiashu0421/Roarm_ROS/build/roarm/test_results/roarm/xmllint.xunit.xml'\n"}
+[2.434889] (roarm) StdoutLine: {'line': b'4/4 Test #4: xmllint ..........................   Passed    1.05 sec\n'}
+[2.435319] (roarm) StdoutLine: {'line': b'\n'}
+[2.435456] (roarm) StdoutLine: {'line': b'75% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 4\n'}
+[2.435513] (roarm) StdoutLine: {'line': b'\n'}
+[2.435564] (roarm) StdoutLine: {'line': b'Label Time Summary:\n'}
+[2.435613] (roarm) StdoutLine: {'line': b'flake8        =   0.28 sec*proc (1 test)\n'}
+[2.435662] (roarm) StdoutLine: {'line': b'lint_cmake    =   0.16 sec*proc (1 test)\n'}
+[2.435711] (roarm) StdoutLine: {'line': b'linter        =   1.71 sec*proc (4 tests)\n'}
+[2.435759] (roarm) StdoutLine: {'line': b'pep257        =   0.21 sec*proc (1 test)\n'}
+[2.435807] (roarm) StdoutLine: {'line': b'xmllint       =   1.05 sec*proc (1 test)\n'}
+[2.435854] (roarm) StdoutLine: {'line': b'\n'}
+[2.435902] (roarm) StdoutLine: {'line': b'Total Test time (real) =   1.71 sec\n'}
+[2.435951] (roarm) StdoutLine: {'line': b'\n'}
+[2.436002] (roarm) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[2.436050] (roarm) StdoutLine: {'line': b'\t\x1b[0;31m  1 - flake8 (Failed)\x1b[0;0m\n'}
+[2.436268] (roarm) StderrLine: {'line': b'Errors while running CTest\n'}
+[2.436402] (roarm) StderrLine: {'line': b'Output from these tests are in: /home/wujiashu0421/Roarm_ROS/build/roarm/Testing/Temporary/LastTest.log\n'}
+[2.436465] (roarm) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[2.438663] (roarm) CommandEnded: {'returncode': 8}
+[2.439551] (roarm) TestFailure: {'identifier': 'roarm'}
+[2.439621] (roarm) JobEnded: {'identifier': 'roarm', 'rc': 0}
+[2.440977] (-) EventReactorShutdown: {}

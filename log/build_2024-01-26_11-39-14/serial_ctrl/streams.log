@@ -1,0 +1,23 @@
+[0.767s] Invoking command in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/serial_ctrl': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/prefix_override:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/serial_ctrl build --build-base /home/wujiashu0421/Roarm_ROS/build/serial_ctrl/build install --record /home/wujiashu0421/Roarm_ROS/build/serial_ctrl/install.log --single-version-externally-managed
+[0.936s] running egg_info
+[0.937s] writing ../../../../build/serial_ctrl/serial_ctrl.egg-info/PKG-INFO
+[0.937s] writing dependency_links to ../../../../build/serial_ctrl/serial_ctrl.egg-info/dependency_links.txt
+[0.937s] writing entry points to ../../../../build/serial_ctrl/serial_ctrl.egg-info/entry_points.txt
+[0.937s] writing requirements to ../../../../build/serial_ctrl/serial_ctrl.egg-info/requires.txt
+[0.937s] writing top-level names to ../../../../build/serial_ctrl/serial_ctrl.egg-info/top_level.txt
+[0.938s] reading manifest file '../../../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[0.939s] writing manifest file '../../../../build/serial_ctrl/serial_ctrl.egg-info/SOURCES.txt'
+[0.939s] running build
+[0.940s] running build_py
+[0.940s] running install
+[0.940s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.940s]   warnings.warn(
+[0.940s] running install_lib
+[0.941s] running install_data
+[0.941s] running install_egg_info
+[0.943s] removing '/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.943s] Copying ../../../../build/serial_ctrl/serial_ctrl.egg-info to /home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages/serial_ctrl-0.0.0-py3.10.egg-info
+[0.943s] running install_scripts
+[0.959s] Installing serial_ctrl script to /home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/serial_ctrl
+[0.960s] writing list of installed files to '/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/install.log'
+[1.020s] Invoked command in '/home/wujiashu0421/Roarm_ROS/src/roarm_ws_em0/src/serial_ctrl' returned '0': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/serial_ctrl/prefix_override:/home/wujiashu0421/Roarm_ROS/install/serial_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/serial_ctrl build --build-base /home/wujiashu0421/Roarm_ROS/build/serial_ctrl/build install --record /home/wujiashu0421/Roarm_ROS/build/serial_ctrl/install.log --single-version-externally-managed

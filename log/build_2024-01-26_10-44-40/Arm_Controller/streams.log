@@ -1,0 +1,35 @@
+[0.848s] Invoking command in '/home/wujiashu0421/Roarm_ROS/src/Arm_Controller': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/Arm_Controller/prefix_override:/home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Arm_Controller build --build-base /home/wujiashu0421/Roarm_ROS/build/Arm_Controller/build install --record /home/wujiashu0421/Roarm_ROS/build/Arm_Controller/install.log --single-version-externally-managed
+[1.024s] running egg_info
+[1.024s] creating ../../build/Arm_Controller/Arm_Controller.egg-info
+[1.024s] writing ../../build/Arm_Controller/Arm_Controller.egg-info/PKG-INFO
+[1.024s] writing dependency_links to ../../build/Arm_Controller/Arm_Controller.egg-info/dependency_links.txt
+[1.024s] writing entry points to ../../build/Arm_Controller/Arm_Controller.egg-info/entry_points.txt
+[1.024s] writing requirements to ../../build/Arm_Controller/Arm_Controller.egg-info/requires.txt
+[1.025s] writing top-level names to ../../build/Arm_Controller/Arm_Controller.egg-info/top_level.txt
+[1.025s] writing manifest file '../../build/Arm_Controller/Arm_Controller.egg-info/SOURCES.txt'
+[1.032s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.032s]   warnings.warn(
+[1.032s] reading manifest file '../../build/Arm_Controller/Arm_Controller.egg-info/SOURCES.txt'
+[1.032s] writing manifest file '../../build/Arm_Controller/Arm_Controller.egg-info/SOURCES.txt'
+[1.032s] running build
+[1.033s] running build_py
+[1.033s] creating /home/wujiashu0421/Roarm_ROS/build/Arm_Controller/build
+[1.033s] creating /home/wujiashu0421/Roarm_ROS/build/Arm_Controller/build/lib
+[1.033s] creating /home/wujiashu0421/Roarm_ROS/build/Arm_Controller/build/lib/Arm_Controller
+[1.033s] copying Arm_Controller/__init__.py -> /home/wujiashu0421/Roarm_ROS/build/Arm_Controller/build/lib/Arm_Controller
+[1.033s] running install
+[1.033s] running install_lib
+[1.034s] creating /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages/Arm_Controller
+[1.034s] copying /home/wujiashu0421/Roarm_ROS/build/Arm_Controller/build/lib/Arm_Controller/__init__.py -> /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages/Arm_Controller
+[1.034s] byte-compiling /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages/Arm_Controller/__init__.py to __init__.cpython-310.pyc
+[1.034s] running install_data
+[1.034s] creating /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/share/ament_index
+[1.034s] creating /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/share/ament_index/resource_index
+[1.034s] creating /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/share/ament_index/resource_index/packages
+[1.034s] copying resource/Arm_Controller -> /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/share/ament_index/resource_index/packages
+[1.035s] copying package.xml -> /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/share/Arm_Controller
+[1.035s] running install_egg_info
+[1.035s] Copying ../../build/Arm_Controller/Arm_Controller.egg-info to /home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages/Arm_Controller-0.0.0-py3.10.egg-info
+[1.035s] running install_scripts
+[1.059s] writing list of installed files to '/home/wujiashu0421/Roarm_ROS/build/Arm_Controller/install.log'
+[1.123s] Invoked command in '/home/wujiashu0421/Roarm_ROS/src/Arm_Controller' returned '0': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/Arm_Controller/prefix_override:/home/wujiashu0421/Roarm_ROS/install/Arm_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Arm_Controller build --build-base /home/wujiashu0421/Roarm_ROS/build/Arm_Controller/build install --record /home/wujiashu0421/Roarm_ROS/build/Arm_Controller/install.log --single-version-externally-managed
