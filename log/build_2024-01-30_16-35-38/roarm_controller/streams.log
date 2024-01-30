@@ -1,0 +1,24 @@
+[0.574s] Invoking command in '/home/wujiashu0421/Roarm_ROS/build/roarm_controller': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/roarm_controller/prefix_override:/home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/roarm_controller/build --no-deps install_data
+[0.777s] running develop
+[0.905s] running egg_info
+[0.905s] creating roarm_controller.egg-info
+[0.905s] writing roarm_controller.egg-info/PKG-INFO
+[0.906s] writing dependency_links to roarm_controller.egg-info/dependency_links.txt
+[0.906s] writing entry points to roarm_controller.egg-info/entry_points.txt
+[0.906s] writing requirements to roarm_controller.egg-info/requires.txt
+[0.906s] writing top-level names to roarm_controller.egg-info/top_level.txt
+[0.906s] writing manifest file 'roarm_controller.egg-info/SOURCES.txt'
+[0.907s] reading manifest file 'roarm_controller.egg-info/SOURCES.txt'
+[0.908s] writing manifest file 'roarm_controller.egg-info/SOURCES.txt'
+[0.909s] running build_ext
+[0.909s] Creating /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages/roarm-controller.egg-link (link to .)
+[0.910s] Installing roarm_controller script to /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/roarm_controller
+[0.910s] 
+[0.910s] Installed /home/wujiashu0421/Roarm_ROS/build/roarm_controller
+[0.910s] running install_data
+[0.911s] creating /home/wujiashu0421/Roarm_ROS/install/roarm_controller/share/ament_index
+[0.911s] creating /home/wujiashu0421/Roarm_ROS/install/roarm_controller/share/ament_index/resource_index
+[0.911s] creating /home/wujiashu0421/Roarm_ROS/install/roarm_controller/share/ament_index/resource_index/packages
+[0.911s] copying resource/roarm_controller -> /home/wujiashu0421/Roarm_ROS/install/roarm_controller/share/ament_index/resource_index/packages
+[0.911s] copying package.xml -> /home/wujiashu0421/Roarm_ROS/install/roarm_controller/share/roarm_controller
+[0.936s] Invoked command in '/home/wujiashu0421/Roarm_ROS/build/roarm_controller' returned '0': PYTHONPATH=/home/wujiashu0421/Roarm_ROS/build/roarm_controller/prefix_override:/home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py develop --editable --build-directory /home/wujiashu0421/Roarm_ROS/build/roarm_controller/build --no-deps install_data

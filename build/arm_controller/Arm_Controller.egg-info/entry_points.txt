@@ -1,3 +1,0 @@
-[console_scripts]
-feedback_service = Arm_Controller.controller_node.py:main
-

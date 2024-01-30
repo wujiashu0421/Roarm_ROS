@@ -1,0 +1,30 @@
+running develop
+Removing /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages/roarm-controller.egg-link (link to .)
+running egg_info
+writing ../../build/roarm_controller/roarm_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/roarm_controller/roarm_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/roarm_controller/roarm_controller.egg-info/entry_points.txt
+writing requirements to ../../build/roarm_controller/roarm_controller.egg-info/requires.txt
+writing top-level names to ../../build/roarm_controller/roarm_controller.egg-info/top_level.txt
+reading manifest file '../../build/roarm_controller/roarm_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/roarm_controller/roarm_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wujiashu0421/Roarm_ROS/build/roarm_controller/build
+creating /home/wujiashu0421/Roarm_ROS/build/roarm_controller/build/lib
+creating /home/wujiashu0421/Roarm_ROS/build/roarm_controller/build/lib/roarm_controller
+copying roarm_controller/controller.py -> /home/wujiashu0421/Roarm_ROS/build/roarm_controller/build/lib/roarm_controller
+copying roarm_controller/__init__.py -> /home/wujiashu0421/Roarm_ROS/build/roarm_controller/build/lib/roarm_controller
+running install
+running install_lib
+creating /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages/roarm_controller
+copying /home/wujiashu0421/Roarm_ROS/build/roarm_controller/build/lib/roarm_controller/controller.py -> /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages/roarm_controller
+copying /home/wujiashu0421/Roarm_ROS/build/roarm_controller/build/lib/roarm_controller/__init__.py -> /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages/roarm_controller
+byte-compiling /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages/roarm_controller/controller.py to controller.cpython-310.pyc
+byte-compiling /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages/roarm_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/roarm_controller/roarm_controller.egg-info to /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages/roarm_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing roarm_controller script to /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/roarm_controller
+writing list of installed files to '/home/wujiashu0421/Roarm_ROS/build/roarm_controller/install.log'

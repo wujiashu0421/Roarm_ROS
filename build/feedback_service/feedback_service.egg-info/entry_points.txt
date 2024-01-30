@@ -1,3 +1,0 @@
-[console_scripts]
-service_node = feedback_service.service_node.py:main
-

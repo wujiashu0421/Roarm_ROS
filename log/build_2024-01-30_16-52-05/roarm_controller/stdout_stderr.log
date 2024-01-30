@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing roarm_controller.egg-info/PKG-INFO
+writing dependency_links to roarm_controller.egg-info/dependency_links.txt
+writing entry points to roarm_controller.egg-info/entry_points.txt
+writing requirements to roarm_controller.egg-info/requires.txt
+writing top-level names to roarm_controller.egg-info/top_level.txt
+reading manifest file 'roarm_controller.egg-info/SOURCES.txt'
+writing manifest file 'roarm_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/python3.10/site-packages/roarm-controller.egg-link (link to .)
+Installing roarm_controller script to /home/wujiashu0421/Roarm_ROS/install/roarm_controller/lib/roarm_controller
+
+Installed /home/wujiashu0421/Roarm_ROS/build/roarm_controller
+running install_data

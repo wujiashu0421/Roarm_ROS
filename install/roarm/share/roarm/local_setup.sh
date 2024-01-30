@@ -1,1 +1,0 @@
-/home/wujiashu0421/Roarm_ROS/build/roarm/ament_cmake_environment_hooks/local_setup.sh

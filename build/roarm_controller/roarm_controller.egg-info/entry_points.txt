@@ -1,0 +1,3 @@
+[console_scripts]
+roarm_controller = roarm_controller.controller:main
+
